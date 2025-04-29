@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+body{
+    background-color: #F9FAFF;
+}
+:root{
+    --bg-color: #F9FAFF;
+    --text-color:#25282B;
+    --barnd-yellow:#FDC435;
+    --heading-color:#333333;
+    --caption-color:#828282;
+}
+.wrapper{
+    position: relative;
+}
+.upper-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -5;
+}
+.highlight{
+    background-color: var(--barnd-yellow);
+}
+/* -------basic css for whole landing page-------- */
+.navigation-bar{
+    position:sticky !important;
+    top: 20px !important;
+    z-index: 550;
+}
+.navbar-brand{
+    font-family: "Comfortaa",sans-serif;
+}
+nav ul li a{
+    color:var(--text-color) !important ;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    transition: .5s !important;
+}
+
+@media screen and (max-width:768px) {
+    nav ul li a:hover{
+        background-color: #f5c449 !important;
+        margin-bottom: 5px;
+    }
+    .navbar-nav{
+        /* background-color: #FDC435 !important; */
+        padding: 80px !important;
+    }
+    .activee{
+        background-color: #f5c449 !important;
+    }
+}
+/* nav section ended------------ */
+.hero{
+    margin-bottom: 200px;
+}
+.content h4{
+    color: var(--barnd-yellow);
+    font-family: "Nunito", sans-serif;
+}
+.content h1{
+    color: var(--heading-color);
+    font-size: 68px !important;
+    font-family: "Playfair Display", serif;
+}
+.content p{
+    color: var(--caption-color);
+    font-size: 18px;
+    word-spacing: 2px;
+}
+.links{
+    margin-top: 30px;
+}
+.links a{
+    color: var(--text-color) !important;
+    font-size: 400;
+    transition: .3s;
+}
+.links a:hover{
+    background-color: #F9FAFF;
+    border: 1px solid #333333;
+}
+.links .simple_one{
+    border: 1px solid var(--text-color);
+}
+.links .simple_one:hover {
+    background-color: #FDC435;
+    border: none;
+}
+@media screen and (max-width:768px) {
+   .content{
+    backdrop-filter: blur(3px);
+   }
+   .content h4{
+    color: #ffb700 !important;
+   }
+}
+/* ---------hero section ends------------------ */
+.projects{
+    margin-bottom: 100px;
+}
+.section-title{
+    margin-bottom: 80px;
+    font-family: "Playfair Display", serif;
+    
+}
+.section-title .h1{
+    font-size: 58px !important;
+}
+.section-title .line{
+    width: 140px;
+    height: 5px;
+    background-color: #FDC435;
+    border-radius: 20px;
+    margin: auto;
+}
+.project-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 992px;
+    margin: auto;
+    border-radius: 24px;
+    margin-bottom: 80px !important;
+}
+.project-title{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px !important;
+}
+.project-caption{
+    color: #828282;
+    margin-bottom: 40px !important;
+}
+.project-opening-btn a{
+    color: var(--text-color) !important;
+    font-size: 400;
+    transition: .5s !important;
+    border: 1px solid #333333;
+    border-radius: 24px;
+}
+.project-opening-btn a:hover{
+    background-color: #FDC435;
+    border: none;
+}
+@media screen and (max-width:768px) {
+   .project-card{
+    flex-direction: column;
+   }
+   .photo{
+    width: 100%;
+   }
+   .photo img{
+    width: 100%;
+    border-radius: 0 !important;
+   }
+ }
+/* ------project section ends----------- */
+.contact{
+    margin-bottom: 0px;
+}
+form{
+    max-width: 400px;
+    margin: auto;
+}
+.input{
+    width: 100%;
+    border-radius: 8px;
+}
+.input input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.input textarea{
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    resize: none;
+}
+label{
+    margin-bottom: 10px;
+    color: #25282B;
+}
+.links div{
+    margin: auto;
+}
+.links i{
+    font-size: 20px !important;
+    margin: 0px 20px;
+    padding: 0px;
+    font-size: 40px !important;
+}
+.brand{
+    color: #828282;
+}
+.bottom-line {
+   padding: 0 !important;
+}
+/* bottom section ends-------------------- */
