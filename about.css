@@ -70,6 +70,13 @@ nav ul li a{
         font-size: 58px !important;
     }
 }
+@media screen and (max-width:600px) {
+   
+    .project-title{
+        text-align: center;
+        font-size: 38px !important;
+    }
+}
 /* --------hero section ended---------------- */
 .contact{
     margin-bottom: 0px;
